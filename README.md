@@ -8,10 +8,12 @@
  ```bash 
  npm run dev 
  ```
+ or
+  ```bash 
+ npm run build
+ npm run preview 
+ ```
  4. To run tests run
  ```bash 
  npm run test 
  ```
-
-# Steps to run application in browser
- 1. Go to https://jmreja27.github.io/Frontend-Technical-Test/
