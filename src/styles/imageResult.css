@@ -1,0 +1,53 @@
+.image-result {
+  width: 26vw;
+  right: 6vw;
+  height: 50vh;
+  top: 12.7vh;
+  position: absolute;
+  border: 0.1vh solid #ddd;
+  padding: 2vh 1vw;
+  background-color: white;
+}
+
+.image-content {
+  width: 26vw;
+  height: 26vh;
+}
+
+
+.image-title {
+  font-weight: bolder;
+  font-size: 2.5vh;
+}
+
+.image-url {
+  font-size: 2vh;
+}
+
+.image-description {
+  margin-top: -1vh;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  line-height: 1.2;
+  font-size: 2vh;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+  .image-result {
+    right: 25%;
+    width: 50%;
+    top: 20vh;
+  }
+
+  .image-content {
+    width: 100%;
+  }
+
+  body:has(.image-result) {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+  }
+}
